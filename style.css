@@ -69,41 +69,62 @@ main h3{
     justify-content: space-around;
 }
 @media (max-width:1000px ) {
-    html{
-        font-size: 12px;
+    main h1{
+        font-size: 3.5rem;
+    }
+    main h2{
+        font-size: 2.0rem;
+    }
+    main h3{
+        font-size: 1rem;
     }
     main{
-        /* background-size: contain; */
+        background-size: cover;
         height: 70vh;
     }
-    .description{
-        height: 50vh;
+    .main-text{
+        width: 70%;
     }
 }
 @media (max-width:700px ) {
-    html{
-        font-size: 10px;
+    main h1{
+        font-size: 3.0rem;
+    }
+    main h2{
+        font-size: 1.5rem;
+    }
+    main h3{
+        font-size: 0.75rem;
     }
     main{
-        /* background-size: contain; */
         height: 50vh;
     }
 }
 @media (max-width:600px ) {
-    html{
-        font-size: 9px;
+    main h1{
+        font-size: 2.5rem;
+    }
+    main h2{
+        font-size: 1.5rem;
+    }
+    main h3{
+        font-size: 0.75rem;
     }
     main{
-        /* background-size: contain; */
         height: 50vh;
     }
 }
 @media (max-width:500px ) {
-    html{
-        font-size: 7px;
+    main h1{
+        font-size: 2rem;
+    }
+    main h2{
+        font-size: 1rem;
+    }
+    main h3{
+        font-size: 0.5rem;
     }
     main{
-        /* background-size: contain; */
-        height: 40vh;
+        height: 35vh;
     }
 }
